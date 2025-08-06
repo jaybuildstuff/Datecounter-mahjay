@@ -1,0 +1,129 @@
+/* Color Palette */
+:root {
+    --purple: #B19CD9;
+    --light-purple: #D5C8F0;
+    --dark-purple: #6A5ACD;
+    --text-color: #333;
+    --white: #fff;
+    --black: #000;
+}
+
+body {
+    background-color: var(--light-purple);
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 30px;
+    color: var(--black);
+}
+
+.header-title {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: var(--dark-purple);
+}
+
+.counter-container {
+    margin-bottom: 40px;
+}
+
+.counter-title {
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    color: var(--dark-purple);
+}
+
+.counter {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark-purple);
+}
+
+.daily-message-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.message-container {
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cat-icon {
+    font-size: 1.5rem;
+    color: var(--white);
+    margin: 0 10px;
+}
+
+.image-container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.custom-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.coming-soon-section {
+    margin-top: 40px;
+    border-top: 2px solid var(--light-purple);
+    padding-top: 20px;
+}
+
+.coming-soon-title {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    color: var(--dark-purple);
+    margin: 0;
+}
+
+.coming-soon-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-top: 10px;
+}
